@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .vocabulary {
+    display: block;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 50px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+
+  .word {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .pronunciation {
+    font-size: 20px;
+    color: #666;
+  }
+
+  .button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008cba;
+    color: white;
+    font-size: 18px;
+    margin: 20px 10px;
+    cursor: pointer;
+  }
+
+  .button-container {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+  }
+
+  .button-container div {
+    display: inline-block;
+    width: 50%;
+  }
+</style>
+</head>
+<body>
+
+<div class="vocabulary" id="vocabulary">
+  <!-- Hier werden die Wörter angezeigt -->
+</div>
+
+<div class="button-container">
+  <div><button class="button" onclick="previousWord()">Zurück</button></div>
+  <div><button class="button" onclick="nextWord()">Weiter</button></div>
+</div>
+
+<script>
+let currentIndex = 0;
+let words = []; // Hier werden die Wörter aus der JSON-Datei gespeichert
+
+// Laden der Daten aus der JSON-Datei
+fetch('vac.json')
+  .then(response => response.json())
+  .then(data => {
+    words = data;
+    displayWord();
+  });
+
+function displayWord() {
+  const wordContainer = document.getElementById('vocabulary');
+  const word = words[currentIndex];
+  wordContainer.innerHTML = `
+    <div class="word">${word.Englisch}</div>
+    <div class="word">${word.Hiligaynon}</div>
+    <div class="word">${word.Deutsch}</div>
+    <div class="pronunciation">${word['Deutsch mit Aussprache für englischsprachige']}</div>
+  `;
+}
+
+function nextWord() {
+  if (currentIndex < words.length - 1) {
+    currentIndex++;
+    displayWord();
+  }
+}
+
+function previousWord() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    displayWord();
+  }
+}
+</script>
+
+</body>
+</html>

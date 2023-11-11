@@ -1,0 +1,929 @@
+[
+ {
+  "Englisch": "How's it going?",
+  "Deutsch": "Wie läuft's?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee loyft's?",
+  "Hiligaynon": "Músta na?"
+ },
+ {
+  "Englisch": "Just fine",
+  "Deutsch": "Nur gut",
+  "Deutsch mit Aussprache für englischsprachige": "Noor goot",
+  "Hiligaynon": "Okéy lang"
+ },
+ {
+  "Englisch": "And you?",
+  "Deutsch": "Und du?",
+  "Deutsch mit Aussprache für englischsprachige": "Oond doo?",
+  "Hiligaynon": "Ikáw ya?"
+ },
+ {
+  "Englisch": "Really good",
+  "Deutsch": "Wirklich gut",
+  "Deutsch mit Aussprache für englischsprachige": "Wirklish goot",
+  "Hiligaynon": "Maáyo gid"
+ },
+ {
+  "Englisch": "Thank you",
+  "Deutsch": "Danke",
+  "Deutsch mit Aussprache für englischsprachige": "Dahn-keh",
+  "Hiligaynon": "Salámat"
+ },
+ {
+  "Englisch": "You’re welcome",
+  "Deutsch": "Gern geschehen",
+  "Deutsch mit Aussprache für englischsprachige": "Gairn ge-shehen",
+  "Hiligaynon": "Waáy káso"
+ },
+ {
+  "Englisch": "Sorry",
+  "Deutsch": "Entschuldigung",
+  "Deutsch mit Aussprache für englischsprachige": "Ent-shool-dee-goong",
+  "Hiligaynon": "Pasénsya"
+ },
+ {
+  "Englisch": "Good morning",
+  "Deutsch": "Guten Morgen",
+  "Deutsch mit Aussprache für englischsprachige": "Gooten Morgen",
+  "Hiligaynon": "Maáyong ága"
+ },
+ {
+  "Englisch": "Good evening",
+  "Deutsch": "Guten Abend",
+  "Deutsch mit Aussprache für englischsprachige": "Gooten Ah-bend",
+  "Hiligaynon": "Maáyong gáb‐i"
+ },
+ {
+  "Englisch": "My name is",
+  "Deutsch": "Ich heiße",
+  "Deutsch mit Aussprache für englischsprachige": "Ich hie-seh",
+  "Hiligaynon": "Ang ngálan ko si"
+ },
+ {
+  "Englisch": "Yes",
+  "Deutsch": "Ja",
+  "Deutsch mit Aussprache für englischsprachige": "Yaa",
+  "Hiligaynon": "Huó"
+ },
+ {
+  "Englisch": "No",
+  "Deutsch": "Nein",
+  "Deutsch mit Aussprache für englischsprachige": "Nine",
+  "Hiligaynon": "Indì"
+ },
+ {
+  "Englisch": "Please",
+  "Deutsch": "Bitte",
+  "Deutsch mit Aussprache für englischsprachige": "Bit-teh",
+  "Hiligaynon": "Palíhug"
+ },
+ {
+  "Englisch": "Excuse me",
+  "Deutsch": "Entschuldigen Sie",
+  "Deutsch mit Aussprache für englischsprachige": "Ent-shool-degen zee",
+  "Hiligaynon": "Dispénsa"
+ },
+ {
+  "Englisch": "Help",
+  "Deutsch": "Hilfe",
+  "Deutsch mit Aussprache für englischsprachige": "Hill-feh",
+  "Hiligaynon": "Bulíg"
+ },
+ {
+  "Englisch": "Danger",
+  "Deutsch": "Gefahr",
+  "Deutsch mit Aussprache für englischsprachige": "Ge-far",
+  "Hiligaynon": "Kinatalágman"
+ },
+ {
+  "Englisch": "Bathroom",
+  "Deutsch": "Badezimmer",
+  "Deutsch mit Aussprache für englischsprachige": "Bah-deh-zimmer",
+  "Hiligaynon": "Banyo"
+ },
+ {
+  "Englisch": "Food",
+  "Deutsch": "Essen",
+  "Deutsch mit Aussprache für englischsprachige": "Ess-en",
+  "Hiligaynon": "Pángkaon"
+ },
+ {
+  "Englisch": "Water",
+  "Deutsch": "Wasser",
+  "Deutsch mit Aussprache für englischsprachige": "Vah-sser",
+  "Hiligaynon": "Túbìg"
+ },
+ {
+  "Englisch": "Goodbye",
+  "Deutsch": "Auf Wiedersehen",
+  "Deutsch mit Aussprache für englischsprachige": "Auf vee-der-sehen",
+  "Hiligaynon": "Sámlat"
+ },
+ {
+  "Englisch": "I don't understand",
+  "Deutsch": "Ich verstehe nicht",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh fer-shtey-uh nikht",
+  "Hiligaynon": "Wala ako kaintíndi"
+ },
+ {
+  "Englisch": "Where?",
+  "Deutsch": "Wo?",
+  "Deutsch mit Aussprache für englischsprachige": "Voh",
+  "Hiligaynon": "Diín?"
+ },
+ {
+  "Englisch": "What?",
+  "Deutsch": "Was?",
+  "Deutsch mit Aussprache für englischsprachige": "Vahs",
+  "Hiligaynon": "Ano?"
+ },
+ {
+  "Englisch": "Who?",
+  "Deutsch": "Wer?",
+  "Deutsch mit Aussprache für englischsprachige": "Vehr",
+  "Hiligaynon": "Sin-o?"
+ },
+ {
+  "Englisch": "Why?",
+  "Deutsch": "Warum?",
+  "Deutsch mit Aussprache für englischsprachige": "Vah-room",
+  "Hiligaynon": "Ngaa?"
+ },
+ {
+  "Englisch": "How?",
+  "Deutsch": "Wie?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee",
+  "Hiligaynon": "Paano?"
+ },
+ {
+  "Englisch": "Which?",
+  "Deutsch": "Welche?",
+  "Deutsch mit Aussprache für englischsprachige": "Vel-cheh",
+  "Hiligaynon": "Diín?"
+ },
+ {
+  "Englisch": "When?",
+  "Deutsch": "Wann?",
+  "Deutsch mit Aussprache für englischsprachige": "Van",
+  "Hiligaynon": "San-o?"
+ },
+ {
+  "Englisch": "How much?",
+  "Deutsch": "Wie viel?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee feel",
+  "Hiligaynon": "Pila?"
+ },
+ {
+  "Englisch": "Thank you",
+  "Deutsch": "Danke",
+  "Deutsch mit Aussprache für englischsprachige": "Dank-eh",
+  "Hiligaynon": "Salámat"
+ },
+ {
+  "Englisch": "I'm sorry",
+  "Deutsch": "Es tut mir leid",
+  "Deutsch mit Aussprache für englischsprachige": "Es toot mir lied",
+  "Hiligaynon": "Pasensyáha ako"
+ },
+ {
+  "Englisch": "I love you",
+  "Deutsch": "Ich liebe dich",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh lee-beh dich",
+  "Hiligaynon": "Ginahigugma ko ikaw"
+ },
+ {
+  "Englisch": "Stop!",
+  "Deutsch": "Halt!",
+  "Deutsch mit Aussprache für englischsprachige": "Halt",
+  "Hiligaynon": "Untát!"
+ },
+ {
+  "Englisch": "Fire!",
+  "Deutsch": "Feuer!",
+  "Deutsch mit Aussprache für englischsprachige": "Foy-er",
+  "Hiligaynon": "Kaláyo!"
+ },
+ {
+  "Englisch": "Call the police!",
+  "Deutsch": "Rufen Sie die Polizei!",
+  "Deutsch mit Aussprache für englischsprachige": "Roo-fen zee dee po-lee-tsy",
+  "Hiligaynon": "Tawagá ang pulis!"
+ },
+ {
+  "Englisch": "I need help",
+  "Deutsch": "Ich brauche Hilfe",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh brow-khe hill-fe",
+  "Hiligaynon": "Kinahánglan ko sang bulígang"
+ },
+ {
+  "Englisch": "I'm lost",
+  "Deutsch": "Ich bin verloren",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh bin fer-loh-ren",
+  "Hiligaynon": "Nadulâ ako"
+ },
+ {
+  "Englisch": "It's urgent",
+  "Deutsch": "Es ist dringend",
+  "Deutsch mit Aussprache für englischsprachige": "Es ist dring-end",
+  "Hiligaynon": "Dalî-dalîon ini"
+ },
+ {
+  "Englisch": "Where is the toilet?",
+  "Deutsch": "Wo ist die Toilette?",
+  "Deutsch mit Aussprache für englischsprachige": "Voh ist dee toy-let-eh",
+  "Hiligaynon": "Diín ang kasilyás?"
+ },
+ {
+  "Englisch": "I need a doctor",
+  "Deutsch": "Ich brauche einen Arzt",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh brow-khe ay-nen arzt",
+  "Hiligaynon": "Kinahánglan ko sang doktór"
+ },
+ {
+  "Englisch": "I am hurt",
+  "Deutsch": "Ich bin verletzt",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh bin fer-letzt",
+  "Hiligaynon": "Nasakítan ako"
+ },
+ {
+  "Englisch": "I am sick",
+  "Deutsch": "Ich bin krank",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh bin krank",
+  "Hiligaynon": "Masakít ako"
+ },
+ {
+  "Englisch": "Help!",
+  "Deutsch": "Hilfe!",
+  "Deutsch mit Aussprache für englischsprachige": "Hill-fe",
+  "Hiligaynon": "Bulígi!"
+ },
+ {
+  "Englisch": "Danger!",
+  "Deutsch": "Gefahr!",
+  "Deutsch mit Aussprache für englischsprachige": "Geh-far",
+  "Hiligaynon": "Katalágman!"
+ },
+ {
+  "Englisch": "I am allergic",
+  "Deutsch": "Ich bin allergisch",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh bin al-er-gish",
+  "Hiligaynon": "May alérdya ako"
+ },
+ {
+  "Englisch": "Medicine",
+  "Deutsch": "Medizin",
+  "Deutsch mit Aussprache für englischsprachige": "Med-zi-zin",
+  "Hiligaynon": "Tambál"
+ },
+ {
+  "Englisch": "Hospital",
+  "Deutsch": "Krankenhaus",
+  "Deutsch mit Aussprache für englischsprachige": "Kranken-house",
+  "Hiligaynon": "Ospitál"
+ },
+ {
+  "Englisch": "Ambulance",
+  "Deutsch": "Krankenwagen",
+  "Deutsch mit Aussprache für englischsprachige": "Kranken-wah-gen",
+  "Hiligaynon": "Ambulánsya"
+ },
+ {
+  "Englisch": "Pharmacy",
+  "Deutsch": "Apotheke",
+  "Deutsch mit Aussprache für englischsprachige": "Apo-they-keh",
+  "Hiligaynon": "Parmasía"
+ },
+ {
+  "Englisch": "I need water",
+  "Deutsch": "Ich brauche Wasser",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh brow-khe vah-ser",
+  "Hiligaynon": "Kinahánglan ko sang túbig"
+ },
+ {
+  "Englisch": "I am hungry",
+  "Deutsch": "Ich habe Hunger",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh hab-e hoon-ger",
+  "Hiligaynon": "Gutóm ako"
+ },
+ {
+  "Englisch": "I am thirsty",
+  "Deutsch": "Ich habe Durst",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh hab-e durst",
+  "Hiligaynon": "Uháw ako"
+ },
+ {
+  "Englisch": "I don't understand",
+  "Deutsch": "Ich verstehe nicht",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh fer-stay-he nickt",
+  "Hiligaynon": "Indì ko maintiéndihan"
+ },
+ {
+  "Englisch": "I don't speak [language]",
+  "Deutsch": "Ich spreche kein [Sprache]",
+  "Deutsch mit Aussprache für englischsprachige": "Ikh shprek-e kine [Sprache]",
+  "Hiligaynon": "Indì ako makahambál [lingwahe]"
+ },
+ {
+  "Englisch": "Where can I find...?",
+  "Deutsch": "Wo kann ich finden...?",
+  "Deutsch mit Aussprache für englischsprachige": "Voh kann ikh finden...",
+  "Hiligaynon": "Diín ko makítà...?"
+ },
+ {
+  "Englisch": "How much is this?",
+  "Deutsch": "Wie viel kostet das?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee feel koh-stet das",
+  "Hiligaynon": "Pilá ini?"
+ },
+ {
+  "Englisch": "What is this?",
+  "Deutsch": "Was ist das?",
+  "Deutsch mit Aussprache für englischsprachige": "Vas ist das",
+  "Hiligaynon": "Anó ini?"
+ },
+ {
+  "Englisch": "Who are you?",
+  "Deutsch": "Wer bist du?",
+  "Deutsch mit Aussprache für englischsprachige": "Vair bist du",
+  "Hiligaynon": "Sin-o ikáw?"
+ },
+ {
+  "Englisch": "How are you?",
+  "Deutsch": "Wie geht es dir?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee geht es dea?",
+  "Hiligaynon": "Kumústa ka?"
+ },
+ {
+  "Englisch": "Just fine",
+  "Deutsch": "Es geht mir gut",
+  "Deutsch mit Aussprache für englischsprachige": "Es geht meer goot",
+  "Hiligaynon": "Okéy lang"
+ },
+ {
+  "Englisch": "And you?",
+  "Deutsch": "Und dir?",
+  "Deutsch mit Aussprache für englischsprachige": "Oond dea?",
+  "Hiligaynon": "Ikáw ya?"
+ },
+ {
+  "Englisch": "Thank you",
+  "Deutsch": "Danke",
+  "Deutsch mit Aussprache für englischsprachige": "Dan-ke",
+  "Hiligaynon": "Salámat"
+ },
+ {
+  "Englisch": "You’re welcome",
+  "Deutsch": "Gern geschehen",
+  "Deutsch mit Aussprache für englischsprachige": "Gairn ge-she-hen",
+  "Hiligaynon": "Waáy káso"
+ },
+ {
+  "Englisch": "Good morning",
+  "Deutsch": "Guten Morgen",
+  "Deutsch mit Aussprache für englischsprachige": "Gooten Morgen",
+  "Hiligaynon": "Maáyong ága"
+ },
+ {
+  "Englisch": "Englisch",
+  "Deutsch": "Deutsch",
+  "Deutsch mit Aussprache für englischsprachige": "Deutsch mit Aussprache für englischsprachige",
+  "Hiligaynon": "Hiligaynon"
+ },
+ {
+  "Englisch": "What is your name?",
+  "Deutsch": "Wie ist dein Name?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee ist dine Nah-me?",
+  "Hiligaynon": "Anó ngalan mo?"
+ },
+ {
+  "Englisch": "Thank you",
+  "Deutsch": "Danke",
+  "Deutsch mit Aussprache für englischsprachige": "Dan-ke",
+  "Hiligaynon": "Salámat"
+ },
+ {
+  "Englisch": "You're welcome",
+  "Deutsch": "Gern geschehen",
+  "Deutsch mit Aussprache für englischsprachige": "Gern ge-she-hen",
+  "Hiligaynon": "Waáy káso"
+ },
+ {
+  "Englisch": "Sorry",
+  "Deutsch": "Entschuldigung",
+  "Deutsch mit Aussprache für englischsprachige": "Ent-shool-di-gung",
+  "Hiligaynon": "Sénsya"
+ },
+ {
+  "Englisch": "Excuse me!",
+  "Deutsch": "Entschuldigen Sie!",
+  "Deutsch mit Aussprache für englischsprachige": "Ent-shool-di-gen See!",
+  "Hiligaynon": "Skyus!"
+ },
+ {
+  "Englisch": "Good morning",
+  "Deutsch": "Guten Morgen",
+  "Deutsch mit Aussprache für englischsprachige": "Goot-en Mor-gen",
+  "Hiligaynon": "Maáyong ága"
+ },
+ {
+  "Englisch": "Good night",
+  "Deutsch": "Gute Nacht",
+  "Deutsch mit Aussprache für englischsprachige": "Goot-e Nacht",
+  "Hiligaynon": "Maáyong gáb‐i"
+ },
+ {
+  "Englisch": "Where did you come from?",
+  "Deutsch": "Wo kommst du her?",
+  "Deutsch mit Aussprache für englischsprachige": "Vo kommst doo her?",
+  "Hiligaynon": "Diín ka naghalín?"
+ },
+ {
+  "Englisch": "Where are you going?",
+  "Deutsch": "Wohin gehst du?",
+  "Deutsch mit Aussprache für englischsprachige": "Vo-hin geyst doo?",
+  "Hiligaynon": "Diín kamó magkádto?"
+ },
+ {
+  "Englisch": "We're going home now",
+  "Deutsch": "Wir gehen jetzt nach Hause",
+  "Deutsch mit Aussprache für englischsprachige": "Veer geh-en ye-tst nahkh How-se",
+  "Hiligaynon": "Paulì na kamí"
+ },
+ {
+  "Englisch": "What time is it?",
+  "Deutsch": "Wie spät ist es?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee shpayt ist es?",
+  "Hiligaynon": "Anó óras na?"
+ },
+ {
+  "Englisch": "I don't know",
+  "Deutsch": "Ich weiß nicht",
+  "Deutsch mit Aussprache für englischsprachige": "Ich wise nisht",
+  "Hiligaynon": "Waáy ‘ko ‘kabaló"
+ },
+ {
+  "Englisch": "Good bye",
+  "Deutsch": "Auf Wiedersehen",
+  "Deutsch mit Aussprache für englischsprachige": "Ouf Vee-der-sehen",
+  "Hiligaynon": "Hálong"
+ },
+ {
+  "Englisch": "How old are you?",
+  "Deutsch": "Wie alt bist du?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee alt bist doo?",
+  "Hiligaynon": "Pilá ka na?"
+ },
+ {
+  "Englisch": "I'm twenty",
+  "Deutsch": "Ich bin zwanzig",
+  "Deutsch mit Aussprache für englischsprachige": "Ich bin tswan-tsich",
+  "Hiligaynon": "Báynte ‘ko"
+ },
+ {
+  "Englisch": "Do you know Elder Ferris?",
+  "Deutsch": "Kennst du Elder Ferris?",
+  "Deutsch mit Aussprache für englischsprachige": "Kennst doo Elder Ferris?",
+  "Hiligaynon": "Kilála mo bala si Elder Ferris?"
+ },
+ {
+  "Englisch": "How’s he doing now?",
+  "Deutsch": "Wie geht es ihm jetzt?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee geht es eem ye-tst?",
+  "Hiligaynon": "Kumústa na sia?"
+ },
+ {
+  "Englisch": "He moved to a new area",
+  "Deutsch": "Er ist in eine neue Gegend gezogen",
+  "Deutsch mit Aussprache für englischsprachige": "Air ist in eine noy-e Gay-gend tse-zogen",
+  "Hiligaynon": "Nagbaláhin sia sa bág-o nga lugar"
+ },
+ {
+  "Englisch": "I hope he’s happy",
+  "Deutsch": "Ich hoffe, er ist glücklich",
+  "Deutsch mit Aussprache für englischsprachige": "Ich hoff-e, air ist glück-lich",
+  "Hiligaynon": "Ginahándum ko nga malípay siá"
+ },
+ {
+  "Englisch": "Did you hear about Elder Binting?",
+  "Deutsch": "Hast du von Elder Binting gehört?",
+  "Deutsch mit Aussprache für englischsprachige": "Hast doo fon Elder Binting geh-ört?",
+  "Hiligaynon": "Nabátián mo bala si Elder Binting?"
+ },
+ {
+  "Englisch": "No, I didn't",
+  "Deutsch": "Nein, habe ich nicht",
+  "Deutsch mit Aussprache für englischsprachige": "Nine, hab-e ich nisht",
+  "Hiligaynon": "Indì"
+ },
+ {
+  "Englisch": "What happened?",
+  "Deutsch": "Was ist passiert?",
+  "Deutsch mit Aussprache für englischsprachige": "Vas ist pas-see-ert?",
+  "Hiligaynon": "Anó ang natabû?"
+ },
+ {
+  "Englisch": "He’s going to be transferred",
+  "Deutsch": "Er wird versetzt werden",
+  "Deutsch mit Aussprache für englischsprachige": "Air veerd fer-setst ver-den",
+  "Hiligaynon": "Mabálon sia"
+ },
+ {
+  "Englisch": "When is he leaving?",
+  "Deutsch": "Wann verlässt er?",
+  "Deutsch mit Aussprache für englischsprachige": "Van ver-lasst air?",
+  "Hiligaynon": "Sanó sia maúli?"
+ },
+ {
+  "Englisch": "Next week",
+  "Deutsch": "Nächste Woche",
+  "Deutsch mit Aussprache für englischsprachige": "Nex-te Vokh-e",
+  "Hiligaynon": "Sunôd nga simána"
+ },
+ {
+  "Englisch": "That’s too bad",
+  "Deutsch": "Das ist schade",
+  "Deutsch mit Aussprache für englischsprachige": "Das ist sha-de",
+  "Hiligaynon": "Makahásang gid inâ"
+ },
+ {
+  "Englisch": "Good luck!",
+  "Deutsch": "Viel Glück!",
+  "Deutsch mit Aussprache für englischsprachige": "Feel Glück!",
+  "Hiligaynon": "Maáyo nga pálad!"
+ },
+ {
+  "Englisch": "He's a great missionary",
+  "Deutsch": "Er ist ein toller Missionar",
+  "Deutsch mit Aussprache für englischsprachige": "Air ist ein toll-er Missio-nar",
+  "Hiligaynon": "Maáyo gid siá nga misyonéro"
+ },
+ {
+  "Englisch": "I agree",
+  "Deutsch": "Ich stimme zu",
+  "Deutsch mit Aussprache für englischsprachige": "Ich stimm-e tsoo",
+  "Hiligaynon": "Ako sang-íd"
+ },
+ null,
+ {
+  "Englisch": "That's wonderful",
+  "Deutsch": "Das ist wunderbar",
+  "Deutsch mit Aussprache für englischsprachige": "Das ist vun-der-bar",
+  "Hiligaynon": "Tión man gali"
+ },
+ {
+  "Englisch": "See you later",
+  "Deutsch": "Bis später",
+  "Deutsch mit Aussprache für englischsprachige": "Bis shpay-ter",
+  "Hiligaynon": "Makít-anay tána"
+ },
+ {
+  "Englisch": "What's the date today?",
+  "Deutsch": "Welches Datum haben wir heute?",
+  "Deutsch mit Aussprache für englischsprachige": "Vel-ches Datum haben veer hoy-te?",
+  "Hiligaynon": "Anó ang petsa súbung?"
+ },
+ {
+  "Englisch": "Do you speak English?",
+  "Deutsch": "Sprichst du Englisch?",
+  "Deutsch mit Aussprache für englischsprachige": "Shprikhst doo Eng-lish?",
+  "Hiligaynon": "Nagapanghámbal ka bala sing Ininglís?"
+ },
+ {
+  "Englisch": "Where's the bathroom?",
+  "Deutsch": "Wo ist das Badezimmer?",
+  "Deutsch mit Aussprache für englischsprachige": "Vo ist das Bade-tsim-mer?",
+  "Hiligaynon": "Diín ang paligoán?"
+ },
+ {
+  "Englisch": "I am hungry",
+  "Deutsch": "Ich habe Hunger",
+  "Deutsch mit Aussprache für englischsprachige": "Ich hab-e Hun-ger",
+  "Hiligaynon": "Ginagútum akó"
+ },
+ {
+  "Englisch": "Can you help me?",
+  "Deutsch": "Können Sie mir helfen?",
+  "Deutsch mit Aussprache für englischsprachige": "Kön-nen See meer hel-fen?",
+  "Hiligaynon": "Mahúlugan mo ‘ko?"
+ },
+ {
+  "Englisch": "I am lost",
+  "Deutsch": "Ich habe mich verlaufen",
+  "Deutsch mit Aussprache für englischsprachige": "Ich hab-e mish fer-low-fen",
+  "Hiligaynon": "Naligaw akó"
+ },
+ {
+  "Englisch": "I love you",
+  "Deutsch": "Ich liebe dich",
+  "Deutsch mit Aussprache für englischsprachige": "Ich lee-be dich",
+  "Hiligaynon": "Ginahígugma ta ikáw"
+ },
+ {
+  "Englisch": "What's your job?",
+  "Deutsch": "Was ist dein Beruf?",
+  "Deutsch mit Aussprache für englischsprachige": "Vas ist dine Buh-roof?",
+  "Hiligaynon": "Anó ang ímo trabáho?"
+ },
+ {
+  "Englisch": "It's cold",
+  "Deutsch": "Es ist kalt",
+  "Deutsch mit Aussprache für englischsprachige": "Es ist kalt",
+  "Hiligaynon": "Túgnaw"
+ },
+ {
+  "Englisch": "It's hot",
+  "Deutsch": "Es ist heiß",
+  "Deutsch mit Aussprache für englischsprachige": "Es ist heiss",
+  "Hiligaynon": "Maínit"
+ },
+ {
+  "Englisch": "I'm sorry, I didn't understand",
+  "Deutsch": "Es tut mir leid, ich habe nicht verstanden",
+  "Deutsch mit Aussprache für englischsprachige": "Es tut mir lied, ich hab-e nisht ver-stan-den",
+  "Hiligaynon": "Pasénsya, indì ko maántò"
+ },
+ {
+  "Englisch": "Where can I buy a ticket?",
+  "Deutsch": "Wo kann ich eine Fahrkarte kaufen?",
+  "Deutsch mit Aussprache für englischsprachige": "Vo kann ich eine Far-kar-te kau-fen?",
+  "Hiligaynon": "Diín ako makabákál tikèt?"
+ },
+ {
+  "Englisch": "How much does it cost?",
+  "Deutsch": "Wie viel kostet es?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee feel kos-tet es?",
+  "Hiligaynon": "Pilá ini?"
+ },
+ {
+  "Englisch": "I don't understand",
+  "Deutsch": "Ich verstehe nicht",
+  "Deutsch mit Aussprache für englischsprachige": "Ich ver-steh-e nisht",
+  "Hiligaynon": "Indì ko maántò"
+ },
+ {
+  "Englisch": "Could you repeat that?",
+  "Deutsch": "Könnten Sie das wiederholen?",
+  "Deutsch mit Aussprache für englischsprachige": "Kön-ten See das vee-der-ho-len?",
+  "Hiligaynon": "Mahambál mo liwát ‘nâ?"
+ },
+ {
+  "Englisch": "Where's the nearest hospital?",
+  "Deutsch": "Wo ist das nächste Krankenhaus?",
+  "Deutsch mit Aussprache für englischsprachige": "Vo ist das nek-ste Krank-en-haus?",
+  "Hiligaynon": "Diín ang pinakadúlud nga hospitál?"
+ },
+ {
+  "Englisch": "Could you recommend a good restaurant?",
+  "Deutsch": "Könnten Sie ein gutes Restaurant empfehlen?",
+  "Deutsch mit Aussprache für englischsprachige": "Kön-ten See ain goot-es Rest-au-rant emp-feh-len?",
+  "Hiligaynon": "Mahúlugan mo ‘ko sang maáyo nga restawrán?"
+ },
+ {
+  "Englisch": "Cheers!",
+  "Deutsch": "Prost!",
+  "Deutsch mit Aussprache für englischsprachige": "Prost!",
+  "Hiligaynon": "Kampáy!"
+ },
+ {
+  "Englisch": "Excuse me",
+  "Deutsch": "Entschuldigung",
+  "Deutsch mit Aussprache für englischsprachige": "Ent-shul-di-gung",
+  "Hiligaynon": "Pasayló'a"
+ },
+ {
+  "Englisch": "What's your name?",
+  "Deutsch": "Wie heißt du?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee heist doo?",
+  "Hiligaynon": "Anó ang ímo ngálan?"
+ },
+ {
+  "Englisch": "Pleased to meet you",
+  "Deutsch": "Schön dich zu treffen",
+  "Deutsch mit Aussprache für englischsprachige": "Shön disch zu treffen",
+  "Hiligaynon": "Nalipáypay akó nga makilála ka"
+ },
+ {
+  "Englisch": "I don't feel well",
+  "Deutsch": "Ich fühle mich nicht gut",
+  "Deutsch mit Aussprache für englischsprachige": "Ish feel-e mish nisht gut",
+  "Hiligaynon": "Indì maáyo ang ákon památyag"
+ },
+ {
+  "Englisch": "It's my birthday today",
+  "Deutsch": "Heute ist mein Geburtstag",
+  "Deutsch mit Aussprache für englischsprachige": "Hoy-te ist mine Ge-burts-tag",
+  "Hiligaynon": "Adláw sang ákon nátad káron"
+ },
+ {
+  "Englisch": "I miss you",
+  "Deutsch": "Ich vermisse dich",
+  "Deutsch mit Aussprache für englischsprachige": "Ish ver-miss-e dish",
+  "Hiligaynon": "Ginhígdan ta ikáw"
+ },
+ {
+  "Englisch": "What time is it?",
+  "Deutsch": "Wie spät ist es?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee shpayt ist es?",
+  "Hiligaynon": "Anó ang óras?"
+ },
+ {
+  "Englisch": "What's your favorite color?",
+  "Deutsch": "Was ist deine Lieblingsfarbe?",
+  "Deutsch mit Aussprache für englischsprachige": "Vas ist dine Lieblings-far-be?",
+  "Hiligaynon": "Anó ang ímo pabórìto nga kulór?"
+ },
+ {
+  "Englisch": "Let's go",
+  "Deutsch": "Lass uns gehen",
+  "Deutsch mit Aussprache für englischsprachige": "Lass uns geh-en",
+  "Hiligaynon": "Dalikátón ta"
+ },
+ {
+  "Englisch": "What's the weather like?",
+  "Deutsch": "Wie ist das Wetter?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee ist das Wetter?",
+  "Hiligaynon": "Anó ang hitabô sang panahón?"
+ },
+ {
+  "Englisch": "This is my friend",
+  "Deutsch": "Das ist mein Freund",
+  "Deutsch mit Aussprache für englischsprachige": "Das ist mine Freund",
+  "Hiligaynon": "Ámon ini sang ákon abyán"
+ },
+ {
+  "Englisch": "Where are we going?",
+  "Deutsch": "Wohin gehen wir?",
+  "Deutsch mit Aussprache für englischsprachige": "Vohin geh-en veer?",
+  "Hiligaynon": "Diín tána makádto?"
+ },
+ {
+  "Englisch": "I'm tired",
+  "Deutsch": "Ich bin müde",
+  "Deutsch mit Aussprache für englischsprachige": "Ish bin mü-de",
+  "Hiligaynon": "Kapóy akó"
+ },
+ {
+  "Englisch": "I need a doctor",
+  "Deutsch": "Ich brauche einen Arzt",
+  "Deutsch mit Aussprache für englischsprachige": "Ish brow-khe einen Arzt",
+  "Hiligaynon": "Kinánglan ko doktór"
+ },
+ {
+  "Englisch": "I'm happy",
+  "Deutsch": "Ich bin glücklich",
+  "Deutsch mit Aussprache für englischsprachige": "Ish bin glük-lish",
+  "Hiligaynon": "Lipáy akó"
+ },
+ {
+  "Englisch": "What's this?",
+  "Deutsch": "Was ist das?",
+  "Deutsch mit Aussprache für englischsprachige": "Vas ist das?",
+  "Hiligaynon": "Anó ini?"
+ },
+ {
+  "Englisch": "I will call you",
+  "Deutsch": "Ich werde dich anrufen",
+  "Deutsch mit Aussprache für englischsprachige": "Ish ver-de dish an-rufen",
+  "Hiligaynon": "Tawágan ta ikáw"
+ },
+ {
+  "Englisch": "It's too expensive",
+  "Deutsch": "Es ist zu teuer",
+  "Deutsch mit Aussprache für englischsprachige": "Es ist zu toy-er",
+  "Hiligaynon": "Támà kasá mahál"
+ },
+ {
+  "Englisch": "How old are you?",
+  "Deutsch": "Wie alt bist du?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee alt bist doo?",
+  "Hiligaynon": "Pilá ka túig ka na?"
+ },
+ {
+  "Englisch": "Let's eat",
+  "Deutsch": "Lass uns essen",
+  "Deutsch mit Aussprache für englischsprachige": "Lass uns essen",
+  "Hiligaynon": "Magkáon tána"
+ },
+ null,
+ {
+  "Englisch": "Do you speak English?",
+  "Deutsch": "Sprichst du Englisch?",
+  "Deutsch mit Aussprache für englischsprachige": "Shprihst doo Englisch?",
+  "Hiligaynon": "Makahámbal ka sang Inglés?"
+ },
+ {
+  "Englisch": "I love you",
+  "Deutsch": "Ich liebe dich",
+  "Deutsch mit Aussprache für englischsprachige": "Ish leeb-e dish",
+  "Hiligaynon": "Ginhígdan ko ikáw"
+ },
+ {
+  "Englisch": "Good night",
+  "Deutsch": "Gute Nacht",
+  "Deutsch mit Aussprache für englischsprachige": "Gute Nah-cht",
+  "Hiligaynon": "Maáyo nga gáb-i"
+ },
+ {
+  "Englisch": "I am hungry",
+  "Deutsch": "Ich habe Hunger",
+  "Deutsch mit Aussprache für englischsprachige": "Ish hab-e Hoon-ger",
+  "Hiligaynon": "Ginagútum akó"
+ },
+ {
+  "Englisch": "Be careful",
+  "Deutsch": "Sei vorsichtig",
+  "Deutsch mit Aussprache für englischsprachige": "Sigh for-sihch-tig",
+  "Hiligaynon": "Mag-andám"
+ },
+ {
+  "Englisch": "Can I use your phone?",
+  "Deutsch": "Kann ich dein Handy benutzen?",
+  "Deutsch mit Aussprache für englischsprachige": "Kann ich dine Handy benutzen?",
+  "Hiligaynon": "Pwéde ko magámit ang ímo telépono?"
+ },
+ {
+  "Englisch": "It's raining",
+  "Deutsch": "Es regnet",
+  "Deutsch mit Aussprache für englischsprachige": "Es Reg-net",
+  "Hiligaynon": "Nagaulán"
+ },
+ {
+  "Englisch": "I am sorry",
+  "Deutsch": "Es tut mir leid",
+  "Deutsch mit Aussprache für englischsprachige": "Es toot mir lied",
+  "Hiligaynon": "Pasensyahá kon"
+ },
+ {
+  "Englisch": "Can you help me?",
+  "Deutsch": "Kannst du mir helfen?",
+  "Deutsch mit Aussprache für englischsprachige": "Kannst doo mir helfen?",
+  "Hiligaynon": "Makabúlig ka sa ákon?"
+ },
+ {
+  "Englisch": "See you later",
+  "Deutsch": "Bis später",
+  "Deutsch mit Aussprache für englischsprachige": "Bis spay-ter",
+  "Hiligaynon": "Makít-anay lang tána"
+ },
+ {
+  "Englisch": "I need a taxi",
+  "Deutsch": "Ich brauche ein Taxi",
+  "Deutsch mit Aussprache für englischsprachige": "Ish brow-khe ain Taxi",
+  "Hiligaynon": "Kinánglan ko sang taksi"
+ },
+ {
+  "Englisch": "Where's the restroom?",
+  "Deutsch": "Wo ist die Toilette?",
+  "Deutsch mit Aussprache für englischsprachige": "Voh ist die Toi-lette?",
+  "Hiligaynon": "Diín ang CR?"
+ },
+ {
+  "Englisch": "Do you understand?",
+  "Deutsch": "Verstehst du?",
+  "Deutsch mit Aussprache für englischsprachige": "Ver-stehst doo?",
+  "Hiligaynon": "Naintiénde ka?"
+ },
+ {
+  "Englisch": "How much does this cost?",
+  "Deutsch": "Wie viel kostet das?",
+  "Deutsch mit Aussprache für englischsprachige": "Vee feel kostet das?",
+  "Hiligaynon": "Pilá ini?"
+ },
+ {
+  "Englisch": "I don't know",
+  "Deutsch": "Ich weiß nicht",
+  "Deutsch mit Aussprache für englischsprachige": "Ish vise nisht",
+  "Hiligaynon": "Indì ko máanam"
+ },
+ {
+  "Englisch": "Please wait a moment",
+  "Deutsch": "Bitte warte einen Moment",
+  "Deutsch mit Aussprache für englischsprachige": "Bit-teh varte einen Moh-ment",
+  "Hiligaynon": "Palíhog hulát sandalî"
+ },
+ {
+  "Englisch": "I am lost",
+  "Deutsch": "Ich habe mich verlaufen",
+  "Deutsch mit Aussprache für englischsprachige": "Ish hab-e mish ver-lauf-en",
+  "Hiligaynon": "Nadúlà akó"
+ },
+ {
+  "Englisch": "Where can I buy...?",
+  "Deutsch": "Wo kann ich ... kaufen?",
+  "Deutsch mit Aussprache für englischsprachige": "Voh kann ish ... kow-fen?",
+  "Hiligaynon": "Diín makapalit sang...?"
+ },
+ {
+  "Englisch": "I don't understand",
+  "Deutsch": "Ich verstehe nicht",
+  "Deutsch mit Aussprache für englischsprachige": "Ish ver-steh-e nisht",
+  "Hiligaynon": "Indì ko maintindihán"
+ },
+ {
+  "Englisch": "I need help",
+  "Deutsch": "Ich brauche Hilfe",
+  "Deutsch mit Aussprache für englischsprachige": "Ish brow-khe Hil-fe",
+  "Hiligaynon": "Kinánglan ko sang bulig"
+ }
+]
+
