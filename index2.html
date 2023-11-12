@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .vocabulary {
+    display: block;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 50px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+
+  .word {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .pronunciation {
+    font-size: 20px;
+    color: #666;
+  }
+
+  .button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008cba;
+    color: white;
+    font-size: 18px;
+    margin: 20px 10px;
+    cursor: pointer;
+  }
+
+  .button-container {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 40px 0; /* Optional: Fügt etwas Abstand oben und unten hinzu */
+  }
+
+  .button-container div {
+  display: inline-block; /* Stellt sicher, dass die divs nebeneinander sind */
+  /* width: 50%; Entfernen oder anpassen, wenn nötig */
+}
+.button {
+  margin: 0 5px; /* Fügt einen kleinen Abstand zwischen den Buttons hinzu */
+}
+.search-container {
+  position: fixed; /* Fixiert den Container am linken Rand */
+  left: 20px; /* Linker Abstand */
+  top: 10px; /* Oberer Abstand, passen Sie diesen Wert an, um die Position zu verschieben */
+  z-index: 1000; /* Stellt sicher, dass die Suchleiste über anderen Elementen schwebt */
+}
+
+#searchInput {
+  position: absolute; /* Absolute Positionierung innerhalb des search-container */
+  left: 35px; /* Links von der Lupe positioniert */
+  top: 0; /* Am oberen Rand des search-container */
+  display: none; /* Versteckt das Suchfeld standardmäßig */
+}
+
+.search-container button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.search-results {
+  text-align: left;
+  padding: 10px;
+  display: none; /* Anfangs versteckt */
+}
+.result-id {
+  font-weight: bold;
+  margin-right: 10px; /* Fügt rechts vom ID-Element etwas Platz hinzu */
+}
+
+.result-word {
+  /* Fügen Sie hier bei Bedarf zusätzliches Styling hinzu */
+}
+
+.current-id {
+  position: fixed; /* Fixiert das Element auf der Seite */
+  right: 20px; /* Dies ist der Padding-Wert von .vocabulary */
+  top: 10px; /* Oben auf der Seite mit 10px Abstand vom Fensterrand */
+  z-index: 1000; /* Stellt sicher, dass das Element über anderen liegt */
+}
+@media (max-width: 768px) {
+  /* Anpassungen für mobile Geräte */
+  .current-id {
+    right: 15px; /* Wert für mobile Geräte */
+  }
+
+  .search-container {
+    left: 15px; /* Wert für mobile Geräte */
+  }
+}
+@media (min-width: 768px) { /* Oder welcher Wert auch immer für max-width verwendet wird */
+  .current-id {
+    right: calc((100% - 768px) / 2); /* Kein zusätzliches 20px, da es sich auf den inneren Abstand bezieht */
+  }
+}
+
+
+
+</style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Suche..." onkeyup="searchWords()" style="display: none;">
+        <button onclick="toggleSearch()">🔍</button>
+      </div>
+      
+
+<!-- Container für Suchergebnisse -->
+<div id="searchResults" class="search-results"></div>
+<div class="vocabulary" id="vocabulary">
+  <!-- Hier werden die Wörter angezeigt -->
+</div>
+
+<div id="currentId" class="current-id">ID: </div>
+
+
+  
+
+<div class="button-container">
+  <div><button class="button" onclick="previousWord()">Zurück</button></div>
+  <div><button class="button" onclick="nextWord()">Weiter</button></div>
+</div>
+
+
+<script>
+let currentIndex = 0;
+let words = []; // Hier werden die Wörter aus der JSON-Datei gespeichert
+
+// Laden der Daten aus der JSON-Datei
+fetch('vac.json')
+  .then(response => response.json())
+  .then(data => {
+    words = data;
+    displayWord();
+  });
+
+  function displayWord() {
+  const wordContainer = document.getElementById('vocabulary');
+  const idContainer = document.getElementById('currentId'); // Beziehen Sie das neue ID-Element
+  const word = words[currentIndex];
+
+  idContainer.textContent = `ID: ${word.ID}`; // Setzen Sie den Text des ID-Elements
+  wordContainer.innerHTML = `
+    <div class="word">${word.Englisch}</div>
+    <div class="word">${word.Hiligaynon}</div>
+    <div class="word">${word.Deutsch}</div>
+    <div class="pronunciation">${word['Deutsch mit Aussprache für englischsprachige']}</div>
+  `;
+}
+
+
+
+function nextWord() {
+  if (currentIndex < words.length - 1) {
+    currentIndex++;
+    displayWord();
+  }
+}
+
+function previousWord() {
+  if (currentIndex > 0) {
+    currentIndex--;
+    displayWord();
+  }
+}
+
+function toggleSearch() {
+  var searchInput = document.getElementById("searchInput");
+  if (searchInput.style.display === "none") {
+    searchInput.style.display = "block";
+    searchInput.focus(); // Fokussiert das Suchfeld, sobald es erscheint
+  } else {
+    searchInput.style.display = "none";
+  }
+}
+
+
+
+function searchWords() {
+  var input = document.getElementById("searchInput");
+  var filter = input.value.toLowerCase();
+  var resultsContainer = document.getElementById("searchResults");
+  var results = "";
+
+  // RegEx, um zu überprüfen, ob die Zeichenfolge als eigenständiges Wort vorkommt
+  var regex = new RegExp("\\b" + filter + "\\b", "i");
+
+  for (var i = 0; i < words.length; i++) {
+    var word = words[i];
+    if (regex.test(word.Englisch) || regex.test(word.Deutsch) || word.ID.toString().includes(filter)) {
+      results += `<div onclick="displayWordById(${word.ID})"><span class="result-id">${word.ID}</span> <span class="result-word">${word.Englisch} - ${word.Deutsch}</span></div>`;
+    }
+  }
+
+  resultsContainer.innerHTML = results;
+  resultsContainer.style.display = results ? "block" : "none";
+}
+
+
+
+function displayWordById(id) {
+  var index = words.findIndex(word => word.ID === id);
+  if (index !== -1) {
+    currentIndex = index;
+    displayWord();
+    document.getElementById("searchResults").style.display = "none";
+  }
+}
+
+</script>
+
+</body>
+</html>
