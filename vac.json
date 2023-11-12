@@ -32,7 +32,7 @@
   "Englisch": "Thank you",
   "Deutsch": "Danke",
   "Deutsch mit Aussprache für englischsprachige": "Dahn-keh",
-  "Hiligaynon": "Salmat"
+  "Hiligaynon": "Salamat"
  },
  {
   "ID": 6,
@@ -116,7 +116,7 @@
   "Englisch": "Bathroom",
   "Deutsch": "Badezimmer",
   "Deutsch mit Aussprache für englischsprachige": "Bah-deh-zimmer",
-  "Hiligaynon": "Banyo"
+  "Hiligaynon": "Banyo/CV"
  },
  {
   "ID": 18,
@@ -137,14 +137,14 @@
   "Englisch": "Goodbye",
   "Deutsch": "Auf Wiedersehen",
   "Deutsch mit Aussprache für englischsprachige": "Auf vee-der-sehen",
-  "Hiligaynon": "Salamat"
+  "Hiligaynon": "Goodbye\/Paalam"
  },
  {
   "ID": 21,
   "Englisch": "I don't understand",
   "Deutsch": "Ich verstehe nicht",
   "Deutsch mit Aussprache für englischsprachige": "Ikh fer-shtey-uh nikht",
-  "Hiligaynon": "Wala ako kaintindi"
+  "Hiligaynon": "Wala ako kaintiendi"
  },
  {
   "ID": 22,
@@ -221,7 +221,7 @@
   "Englisch": "I love you",
   "Deutsch": "Ich liebe dich",
   "Deutsch mit Aussprache für englischsprachige": "Ikh lee-beh dich",
-  "Hiligaynon": "Ginahigugma ko ikaw"
+  "Hiligaynon": "Palanga ta gid ka"
  },
  {
   "ID": 33,
@@ -241,15 +241,15 @@
   "ID": 35,
   "Englisch": "Call the police!",
   "Deutsch": "Rufen Sie die Polizei!",
-  "Deutsch mit Aussprache für englischsprachige": "Roo-fen zee dee po-lee-tsy",
-  "Hiligaynon": "Tawaga sang pulis!"
+  "Deutsch mit Aussprache für englischsprachige": "Roo-fen zee dee po-lee-say",
+  "Hiligaynon": "Tawag sang pulis!"
  },
  {
   "ID": 36,
   "Englisch": "I need help",
   "Deutsch": "Ich brauche Hilfe",
   "Deutsch mit Aussprache für englischsprachige": "Ikh brow-khe hill-fe",
-  "Hiligaynon": "Kinahanglan ko sang buligang"
+  "Hiligaynon": "Kinahanglan ko sang bulig"
  },
  {
   "ID": 37,
@@ -263,7 +263,7 @@
   "Englisch": "It's urgent",
   "Deutsch": "Es ist dringend",
   "Deutsch mit Aussprache für englischsprachige": "Es ist dring-end",
-  "Hiligaynon": "Dalî-dalîon ini"
+  "Hiligaynon": "Dali-dalion ini"
  },
  {
   "ID": 39,
@@ -277,7 +277,7 @@
   "Englisch": "I need a doctor",
   "Deutsch": "Ich brauche einen Arzt",
   "Deutsch mit Aussprache für englischsprachige": "Ikh brow-khe ay-nen arzt",
-  "Hiligaynon": "Kinahanglan ko sang doktór"
+  "Hiligaynon": "Kinahanglan ko sang doktor"
  },
  {
   "ID": 41,
@@ -354,7 +354,7 @@
   "Englisch": "I am hungry",
   "Deutsch": "Ich habe Hunger",
   "Deutsch mit Aussprache für englischsprachige": "Ikh hab-e hoon-ger",
-  "Hiligaynon": "Gutóm na ako"
+  "Hiligaynon": "Gutom na ako"
  },
  {
   "ID": 52,
