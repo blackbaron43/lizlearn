@@ -1,0 +1,331 @@
+[
+ {
+  "ID": 1,
+  "Englisch": "I have to work from tomorrow.",
+  "Deutsch": "Ab morgen muss ich arbeiten.",
+  "Deutsche Aussprache für Englischsprachige": "Ab ’mohr-gen mooss ikh ’ahrb-eiten.",
+  "Hiligaynon": "Sa buas, kinahanglan ko magtrabaho."
+ },
+ {
+  "ID": 2,
+  "Englisch": "I am often in the office, but only for a few hours.",
+  "Deutsch": "Ich bin oft im Büro, aber nur für wenige Stunden.",
+  "Deutsche Aussprache für Englischsprachige": "Ik bin ohft im ’bue-roh, ah-ber noor fuer ’ve-ni-ge ’shtoon-den.",
+  "Hiligaynon": "Pirme ako sa opisina, pero sa diutay lang nga oras."
+ },
+ {
+  "ID": 3,
+  "Englisch": "We are leaving at twelve o’clock.",
+  "Deutsch": "Wir fahren um zwölf Uhr ab.",
+  "Deutsche Aussprache für Englischsprachige": "Veer ’fah-ren oom ’tsvölf oor ahb.",
+  "Hiligaynon": "Maghalin kita sa alas dose."
+ },
+ {
+  "ID": 4,
+  "Englisch": "I will call before departure.",
+  "Deutsch": "Vor der Abfahrt rufe ich an.",
+  "Deutsche Aussprache für Englischsprachige": "’Fohr dehr ’ahbfahrt ’roof-e ikh ahn.",
+  "Hiligaynon": "Sa wala pa maghalin, tawagan ko ikaw."
+ },
+ {
+  "ID": 5,
+  "Englisch": "I have to hand in my keys.",
+  "Deutsch": "Ich muss meine Schlüssel abgeben.",
+  "Deutsche Aussprache für Englischsprachige": "Ik mooss ’mi-ne ’shloo-sel ’ahb-geh-ben.",
+  "Hiligaynon": "Kinahanglan ko ihatag ang akon mga yabi."
+ },
+ {
+  "ID": 6,
+  "Englisch": "When can I pick up the cabinet from you?",
+  "Deutsch": "Wann kann ich den Schrank bei dir abholen?",
+  "Deutsche Aussprache für Englischsprachige": "’Vahn kahn ikh dehn ’shrank ’bi deer ’ahb-hoh-len?",
+  "Hiligaynon": "San-o ko ma-pick up ang aparador sa imo balay?"
+ },
+ {
+  "ID": 7,
+  "Englisch": "We still have to pick up my brother.",
+  "Deutsch": "Wir müssen noch meinen Bruder abholen.",
+  "Deutsche Aussprache für Englischsprachige": "Veer ’moos-sen nohk ’mi-nen ’broo-der ’ahb-hoh-len.",
+  "Hiligaynon": "Kinahanglan pa naton kuhaon ang akon utod."
+ },
+ {
+  "ID": 8,
+  "Englisch": "There is a letter for you without a sender.",
+  "Deutsch": "Da ist ein Brief für dich ohne Absender.",
+  "Deutsche Aussprache für Englischsprachige": "’Dah ist ’ine ’breef fuer deekh ’oh-ne ’ahb-sen-der.",
+  "Hiligaynon": "May sulat dira para sa imo nga wala sang nagpadala."
+ },
+ {
+  "ID": 9,
+  "Englisch": "Attention! You are not allowed to do that.",
+  "Deutsch": "Achtung! Das dürfen Sie nicht tun.",
+  "Deutsche Aussprache für Englischsprachige": "’Ahk-toong! ’Dahs ’dür-fen zee nisht toon.",
+  "Hiligaynon": "Magmatngon! Indi ina pwede nimu himuon."
+ },
+ {
+  "ID": 10,
+  "Englisch": "Can you tell me his address?",
+  "Deutsch": "Können Sie mir seine Adresse sagen?",
+  "Deutsche Aussprache für Englischsprachige": "’Köh-nen zee meer ’zi-ne ah-dres-se ’zah-gen?",
+  "Hiligaynon": "Mahimo mo bala isugid sa akon ang iya adres?"
+ },
+ {
+  "ID": 11,
+  "Englisch": "All the best!",
+  "Deutsch": "Alles Gute!",
+  "Deutsche Aussprache für Englischsprachige": "’Ahl-les ’goo-te!",
+  "Hiligaynon": "Maayo gid!"
+ },
+ {
+  "ID": 12,
+  "Englisch": "That is all.",
+  "Deutsch": "Das ist alles.",
+  "Deutsche Aussprache für Englischsprachige": "’Dahs ist ’ahl-les.",
+  "Hiligaynon": "Amo na ina tanan."
+ },
+ {
+  "ID": 13,
+  "Englisch": "Is everyone here?",
+  "Deutsch": "Sind alle da?",
+  "Deutsche Aussprache für Englischsprachige": "’Zind ’ahl-le ’dah?",
+  "Hiligaynon": "Ara na bala tanan?"
+ },
+ {
+  "ID": 14,
+  "Englisch": "All friends are coming.",
+  "Deutsch": "Alle Freunde kommen.",
+  "Deutsche Aussprache für Englischsprachige": "’Ahl-le ’froyn-de ’koh-men.",
+  "Hiligaynon": "Magaabot tanan ko nga mga abyan."
+ },
+ {
+  "ID": 15,
+  "Englisch": "Do you have everything?",
+  "Deutsch": "Hast du alles?",
+  "Deutsche Aussprache für Englischsprachige": "’Hahst doo ’ahl-les?",
+  "Hiligaynon": "May dala ka bala sang tanan?"
+ },
+ {
+  "ID": 16,
+  "Englisch": "He comes alone.",
+  "Deutsch": "Er kommt allein.",
+  "Deutsche Aussprache für Englischsprachige": "Ehr ’kohmt ’ahl-line.",
+  "Hiligaynon": "Nagaisahanon siya mag-abot."
+ },
+ {
+  "ID": 17,
+  "Englisch": "So, it is like this: …",
+  "Deutsch": "Also, es ist so: …",
+  "Deutsche Aussprache für Englischsprachige": "’Ahl-so, ess ist zoh: …",
+  "Hiligaynon": "Gani, amo ina ang sitwasyon: …"
+ },
+ {
+  "ID": 18,
+  "Englisch": "He has time, so he must help us.",
+  "Deutsch": "Er hat Zeit, also muss er uns helfen.",
+  "Deutsche Aussprache für Englischsprachige": "Ehr haht ’tsi-t, ’ahl-so mooss ehr oons ’hel-fen.",
+  "Hiligaynon": "May oras siya, gani kinahanglan niya kita buligan."
+ },
+ {
+  "ID": 19,
+  "Englisch": "How old are you?",
+  "Deutsch": "Wie alt sind Sie?",
+  "Deutsche Aussprache für Englischsprachige": "’Vee ’ahlt zint zee?",
+  "Hiligaynon": "Pila na ang imo edad?"
+ },
+ {
+  "ID": 20,
+  "Englisch": "But you don’t look that old.",
+  "Deutsch": "Sie sehen aber nicht so alt aus.",
+  "Deutsche Aussprache für Englischsprachige": "Zee ’zay-hen ’ah-ber nisht zoh ’ahlt ows.",
+  "Hiligaynon": "Pero indi ka mukhang tigulang."
+ },
+ {
+  "ID": 21,
+  "Englisch": "My car is already very old.",
+  "Deutsch": "Mein Auto ist schon sehr alt.",
+  "Deutsche Aussprache für Englischsprachige": "’Mine ’ow-toh ist shohn ’zayr ’ahlt.",
+  "Hiligaynon": "Daan na gid ang akon kotse."
+ },
+ {
+  "ID": 22,
+  "Englisch": "We live in a very old house.",
+  "Deutsch": "Wir wohnen in einem sehr alten Haus.",
+  "Deutsche Aussprache für Englischsprachige": "Veer ’voh-nen in ’i-nem ’zayr ’ahl-ten Hows.",
+  "Hiligaynon": "Nagapuyo kami sa isa ka tigulang na balay."
+ },
+ {
+  "ID": 23,
+  "Englisch": "Cologne is an old city.",
+  "Deutsch": "Köln ist eine alte Stadt.",
+  "Deutsche Aussprache für Englischsprachige": "’Kœln ist ’i-ne ’ahl-te shtat.",
+  "Hiligaynon": "Daan na syudad ang Cologne."
+ },
+ {
+  "ID": 24,
+  "Englisch": "Age: 26 years.",
+  "Deutsch": "Alter: 26 Jahre.",
+  "Deutsche Aussprache für Englischsprachige": "’Ahl-ter: ’zvan-tsik zeks ’yah-re.",
+  "Hiligaynon": "Edad: 26 ka tuig."
+ },
+ {
+  "ID": 25,
+  "Englisch": "Drive to the right on the next street.",
+  "Deutsch": "Fahren Sie an der nächsten Straße nach rechts.",
+  "Deutsche Aussprache für Englischsprachige": "’Fah-ren zee ahn dehr ’näch-sten ’shtraa-se nahkh ’rekhts.",
+  "Hiligaynon": "Magliko ka sa tuo sa sunod nga kalye."
+ },
+ {
+  "ID": 25,
+  "Englisch": "We meet at the train station.",
+  "Deutsch": "Wir treffen uns am Bahnhof.",
+  "Deutsche Aussprache für Englischsprachige": "Veer ’tref-fen oons ahm ’bahnhof.",
+  "Hiligaynon": "Magkitaay kita sa estasyunan sang tren."
+ },
+ {
+  "ID": 27,
+  "Englisch": "Unfortunately, it’s not possible next Monday.",
+  "Deutsch": "Am nächsten Montag geht es leider nicht.",
+  "Deutsche Aussprache für Englischsprachige": "Ahm ’näch-sten ’mon-tahg ’gayt ess ’li-der nisht.",
+  "Hiligaynon": "Indi pwede sa masunod nga Lunes."
+ },
+ {
+  "ID": 28,
+  "Englisch": "What can I offer you?",
+  "Deutsch": "Was darf ich dir anbieten?",
+  "Deutsche Aussprache für Englischsprachige": "Vahs darf ikh deer ahn-’bee-ten?",
+  "Hiligaynon": "Ano ang puede ko itanyag sa imo?"
+ },
+ {
+  "ID": 29,
+  "Englisch": "Today, sports shoes are on offer.",
+  "Deutsch": "Heute sind Sportschuhe im Angebot.",
+  "Deutsche Aussprache für Englischsprachige": "’Hoy-te zint ’shport-shoo-e im ahn-’geh-bot.",
+  "Hiligaynon": "May sports shoes nga barato subong."
+ },
+ {
+  "ID": 30,
+  "Englisch": "Do you want this jacket? – No, I want the other one.",
+  "Deutsch": "Willst du diese Jacke? – Nein, ich möchte die andere.",
+  "Deutsche Aussprache für Englischsprachige": "’Villst doo ’dee-ze ’yah-ke? – ’Nine, ikh ’mökh-te dee ’ahn-de-re.",
+  "Hiligaynon": "Gusto mo bala ini nga jacket? - Indi, gusto ko ang iban."
+ },
+ {
+  "ID": 31,
+  "Englisch": "Here begins Bahnhofstraße.",
+  "Deutsch": "Hier fängt die Bahnhofstraße an.",
+  "Deutsche Aussprache für Englischsprachige": "’Heer ’fängt dee ’bahnhof-shtraa-se ahn.",
+  "Hiligaynon": "Nagsugod diri ang Bahnhofstraße."
+ },
+ {
+  "ID": 32,
+  "Englisch": "The class starts soon.",
+  "Deutsch": "Der Unterricht fängt gleich an.",
+  "Deutsche Aussprache für Englischsprachige": "Dehr ’oon-ter-rikht ’fängt ’glykh ahn.",
+  "Hiligaynon": "Nagsugod na ang klase."
+ },
+ {
+  "ID": 33,
+  "Englisch": "She lives at the beginning of the street.",
+  "Deutsch": "Sie wohnt am Anfang der Straße.",
+  "Deutsche Aussprache für Englischsprachige": "Zee ’vohnt ahm ’ahn-fahng dehr ’shtraa-se.",
+  "Hiligaynon": "Nagapuyo siya sa umpisa sang dalan."
+ },
+ {
+  "ID": 34,
+  "Englisch": "We are taking a vacation at the beginning of July.",
+  "Deutsch": "Wir machen Anfang Juli Urlaub.",
+  "Deutsche Aussprache für Englischsprachige": "Veer ’mah-khen ’ahn-fahng ’yoo-lee ’oor-laub.",
+  "Hiligaynon": "Magbakasyon kami sa umpisa sang Hulyo."
+ },
+ {
+  "ID": 35,
+  "Englisch": "There you have to click on this word.",
+  "Deutsch": "Da musst du dieses Wort anklicken.",
+  "Deutsche Aussprache für Englischsprachige": "’Dah moosst doo ’dee-ses voort ’ahn-klik-ken.",
+  "Hiligaynon": "Kinahanglan mo i-klik ini nga pulong."
+ },
+ {
+  "ID": 36,
+  "Englisch": "When does this train arrive in Hamburg?",
+  "Deutsch": "Wann kommt dieser Zug in Hamburg an?",
+  "Deutsche Aussprache für Englischsprachige": "’Vahn kohmt ’dee-zer tsook in ’Hahm-boork ahn?",
+  "Hiligaynon": "San-o mag-abot ini nga tren sa Hamburg?"
+ },
+ {
+  "ID": 37,
+  "Englisch": "On this schedule, only the arrival times of the trains are listed.",
+  "Deutsch": "Auf diesem Plan steht nur die Ankunft(-szeit) der Züge.",
+  "Deutsche Aussprache für Englischsprachige": "’Owf ’dee-zem plan shtayt noor dee ’ahn-koonft (-tsi-t) dehr ’tsoo-ge.",
+  "Hiligaynon": "Sa sini nga plano, oras lang sang pag-abot sang tren ang nakalista."
+ },
+ {
+  "ID": 38,
+  "Englisch": "On the form, you must check some boxes.",
+  "Deutsch": "Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen.",
+  "Deutsche Aussprache für Englischsprachige": "’Owf dehm for-moo-’lahr ’moos-sen zee ahn ’mayr-eren shtel-len ’et-vas ’ahn-kroy-tsen.",
+  "Hiligaynon": "Kinahanglan mo markahan ini sa pormularyo."
+ },
+ {
+  "ID": 39,
+  "Englisch": "Please turn on the light!",
+  "Deutsch": "Mach bitte das Licht an!",
+  "Deutsche Aussprache für Englischsprachige": "’Mahkh bi-te dahs likht ahn!",
+  "Hiligaynon": "Palihog buksi ang suga."
+ },
+ {
+  "ID": 40,
+  "Englisch": "Where can I register?",
+  "Deutsch": "Wo kann ich mich anmelden?",
+  "Deutsche Aussprache für Englischsprachige": "’Voh kahn ikh mikh ’ahn-mel-den?",
+  "Hiligaynon": "Diin ako makaparehistro?"
+ },
+ {
+  "ID": 41,
+  "Englisch": "Registration for this course is no longer possible.",
+  "Deutsch": "Eine Anmeldung für diesen Kurs ist nicht mehr möglich.",
+  "Deutsche Aussprache für Englischsprachige": "’I-ne ’ahn-mel-doong fuer ’dee-zen koors ist nisht ’mayr ’mög-lish.",
+  "Hiligaynon": "Indi na pwede magparehistro para sa sini nga kurso."
+ },
+ {
+  "ID": 42,
+  "Englisch": "Also write a salutation and a greeting.",
+  "Deutsch": "Schreiben Sie auch eine Anrede und einen Gruß.",
+  "Deutsche Aussprache für Englischsprachige": "’Shry-ben zee ’owkh ’i-ne ’ahn-re-de oond ’i-nen ’groos.",
+  "Hiligaynon": "Palihog isulat man ang pang-address kag pangumusta."
+ },
+ {
+  "ID": 43,
+  "Englisch": "Can one call you?",
+  "Deutsch": "Kann man Sie anrufen?",
+  "Deutsche Aussprache für Englischsprachige": "’Kahn mahn zee ’ahn-roo-fen?",
+  "Hiligaynon": "Pwede ko bala tawagan ka?"
+ },
+ {
+  "ID": 44,
+  "Englisch": "Peter quickly calls his girlfriend.",
+  "Deutsch": "Peter ruft kurz seine Freundin an.",
+  "Deutsche Aussprache für Englischsprachige": "’Pay-ter roof-t koorts ’zi-ne ’froynt-in ahn.",
+  "Hiligaynon": "Tawagan ni Peter ang iya uyab sa madali."
+ },
+ {
+  "ID": 45,
+  "Englisch": "She receives many calls on her mobile phone.",
+  "Deutsch": "Sie bekommt viele Anrufe auf ihrem Handy.",
+  "Deutsche Aussprache für Englischsprachige": "Zee be-’kohmt ’fee-le ’ahn-roo-fe owf ’i-rem ’han-dee.",
+  "Hiligaynon": "Madamo siya gaabot nga tawag sa iya cellphone."
+ },
+ {
+  "ID": 46,
+  "Englisch": "We are not here at the moment. Please speak to the answering machine.",
+  "Deutsch": "Wir sind im Moment nicht da. Sprechen Sie bitte auf den Anrufbeantworter.",
+  "Deutsche Aussprache für Englischsprachige": "Veer zint im ’moh-ment nisht dah. ’Shprekhen zee bi-te owf dehn ’ahn-roof-bey-ahnt-vor-ter.",
+  "Hiligaynon": "Wala kami diri subong. Palihog magbilin sang mensahe sa answering machine."
+ },
+ {
+  "ID": 47,
+  "Englisch": "Registration for this course is no longer possible.",
+  "Deutsch": "Eine Anmeldung für diesen Kurs ist nicht mehr möglich.",
+  "Deutsche Aussprache für Englischsprachige": "’I-ne ’ahn-mel-doong fuer ’dee-zen koors ist nisht ’mayr ’mög-lish.",
+  "Hiligaynon": "Indi na pwede magparehistro para sa sini nga kurso."
+ }
+]
