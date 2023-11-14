@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.4.3.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
+		pre { background: transparent }
+		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
+		pre.cjk { font-family: "NSimSun", monospace; font-size: 10pt }
+		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre class="western">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;de&quot;&gt;
+&lt;head&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;style&gt;
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .vocabulary {
+    display: block;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 50px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+
+  .word {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .pronunciation {
+    font-size: 20px;
+    color: #666;
+  }
+
+  .button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008cba;
+    color: white;
+    font-size: 18px;
+    margin: 20px 10px;
+    cursor: pointer;
+  }
+
+  .button-container {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 40px 0; /* Optional: Fügt etwas Abstand oben und unten hinzu */
+  }
+
+  .button-container div {
+  display: inline-block; /* Stellt sicher, dass die divs nebeneinander sind */
+  /* width: 50%; Entfernen oder anpassen, wenn nötig */
+}
+.button {
+  margin: 0 5px; /* Fügt einen kleinen Abstand zwischen den Buttons hinzu */
+}
+.search-container {
+  position: fixed; /* Fixiert den Container am linken Rand */
+  left: 20px; /* Linker Abstand */
+  top: 10px; /* Oberer Abstand, passen Sie diesen Wert an, um die Position zu verschieben */
+  z-index: 1000; /* Stellt sicher, dass die Suchleiste über anderen Elementen schwebt */
+}
+
+#searchInput {
+  position: absolute; /* Absolute Positionierung innerhalb des search-container */
+  left: 35px; /* Links von der Lupe positioniert */
+  top: 0; /* Am oberen Rand des search-container */
+  display: none; /* Versteckt das Suchfeld standardmäßig */
+}
+
+.search-container button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.search-results {
+  text-align: left;
+  padding: 10px;
+  display: none; /* Anfangs versteckt */
+}
+.result-id {
+  font-weight: bold;
+  margin-right: 10px; /* Fügt rechts vom ID-Element etwas Platz hinzu */
+}
+
+.result-word {
+  /* Fügen Sie hier bei Bedarf zusätzliches Styling hinzu */
+}
+
+.current-id {
+  position: fixed; /* Fixiert das Element auf der Seite */
+  right: 20px; /* Dies ist der Padding-Wert von .vocabulary */
+  top: 10px; /* Oben auf der Seite mit 10px Abstand vom Fensterrand */
+  z-index: 1000; /* Stellt sicher, dass das Element über anderen liegt */
+}
+@media (max-width: 768px) {
+  /* Anpassungen für mobile Geräte */
+  .current-id {
+    right: 15px; /* Wert für mobile Geräte */
+  }
+
+  .search-container {
+    left: 15px; /* Wert für mobile Geräte */
+  }
+}
+@media (min-width: 768px) { /* Oder welcher Wert auch immer für max-width verwendet wird */
+  .current-id {
+    right: calc((100% - 768px) / 2); /* Kein zusätzliches 20px, da es sich auf den inneren Abstand bezieht */
+  }
+}
+
+
+
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;search-container&quot;&gt;
+        &lt;input type=&quot;text&quot; id=&quot;searchInput&quot; placeholder=&quot;Suche...&quot; onkeyup=&quot;searchWords()&quot; style=&quot;display: none;&quot;&gt;
+        &lt;button onclick=&quot;toggleSearch()&quot;&gt;🔍&lt;/button&gt;
+      &lt;/div&gt;
+      
+
+&lt;!-- Container für Suchergebnisse --&gt;
+&lt;div id=&quot;searchResults&quot; class=&quot;search-results&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;vocabulary&quot; id=&quot;vocabulary&quot;&gt;
+  &lt;!-- Hier werden die Wörter angezeigt --&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;currentId&quot; class=&quot;current-id&quot;&gt;ID: &lt;/div&gt;
+
+
+  
+
+&lt;div class=&quot;button-container&quot;&gt;
+  &lt;div&gt;&lt;button class=&quot;button&quot; onclick=&quot;previousWord()&quot;&gt;Zurück&lt;/button&gt;&lt;/div&gt;
+  &lt;div&gt;&lt;button class=&quot;button&quot; onclick=&quot;nextWord()&quot;&gt;Weiter&lt;/button&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;script&gt;
+let currentIndex = 0;
+let words = []; // Hier werden die Wörter aus der JSON-Datei gespeichert
+
+// Laden der Daten aus der JSON-Datei
+fetch('A1.json')
+  .then(response =&gt; response.json())
+  .then(data =&gt; {
+    words = data;
+    displayWord();
+  });
+
+  function displayWord() {
+  const wordContainer = document.getElementById('vocabulary');
+  const idContainer = document.getElementById('currentId'); // Beziehen Sie das neue ID-Element
+  const word = words[currentIndex];
+
+  idContainer.textContent = `ID: ${word.ID}`; // Setzen Sie den Text des ID-Elements
+  wordContainer.innerHTML = `
+    &lt;div class=&quot;word&quot;&gt;${word.Englisch}&lt;/div&gt;
+    &lt;div class=&quot;word&quot;&gt;${word.Hiligaynon}&lt;/div&gt;
+    &lt;div class=&quot;word&quot;&gt;${word.Deutsch}&lt;/div&gt;
+    &lt;div class=&quot;pronunciation&quot;&gt;${word['Deutsch mit Aussprache für englischsprachige']}&lt;/div&gt;
+  `;
+}
+
+
+
+function nextWord() {
+  if (currentIndex &lt; words.length - 1) {
+    currentIndex++;
+    displayWord();
+  }
+}
+
+function previousWord() {
+  if (currentIndex &gt; 0) {
+    currentIndex--;
+    displayWord();
+  }
+}
+
+function toggleSearch() {
+  var searchInput = document.getElementById(&quot;searchInput&quot;);
+  if (searchInput.style.display === &quot;none&quot;) {
+    searchInput.style.display = &quot;block&quot;;
+    searchInput.focus(); // Fokussiert das Suchfeld, sobald es erscheint
+  } else {
+    searchInput.style.display = &quot;none&quot;;
+  }
+}
+
+
+
+function searchWords() {
+  var input = document.getElementById(&quot;searchInput&quot;);
+  var filter = input.value.toLowerCase();
+  var resultsContainer = document.getElementById(&quot;searchResults&quot;);
+  var results = &quot;&quot;;
+
+  // RegEx, um zu überprüfen, ob die Zeichenfolge als eigenständiges Wort vorkommt
+  var regex = new RegExp(&quot;\\b&quot; + filter + &quot;\\b&quot;, &quot;i&quot;);
+
+  for (var i = 0; i &lt; words.length; i++) {
+    var word = words[i];
+    if (regex.test(word.Englisch) || regex.test(word.Deutsch) || word.ID.toString().includes(filter)) {
+      results += `&lt;div onclick=&quot;displayWordById(${word.ID})&quot;&gt;&lt;span class=&quot;result-id&quot;&gt;${word.ID}&lt;/span&gt; &lt;span class=&quot;result-word&quot;&gt;${word.Englisch} - ${word.Deutsch}&lt;/span&gt;&lt;/div&gt;`;
+    }
+  }
+
+  resultsContainer.innerHTML = results;
+  resultsContainer.style.display = results ? &quot;block&quot; : &quot;none&quot;;
+}
+
+
+
+function displayWordById(id) {
+  var index = words.findIndex(word =&gt; word.ID === id);
+  if (index !== -1) {
+    currentIndex = index;
+    displayWord();
+    document.getElementById(&quot;searchResults&quot;).style.display = &quot;none&quot;;
+  }
+}
+
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</body>
+</html>
