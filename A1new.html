@@ -114,6 +114,15 @@
     right: calc((100% - 768px) / 2); /* Kein zusätzliches 20px, da es sich auf den inneren Abstand bezieht */
   }
 }
+.picture-box {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd; /* Grauer Rahmen */
+    border-radius: 10px; /* Abgerundete Ecken */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Schatten für Tiefe */
+    background-color: #fff; /* Weißer Hintergrund */
+    max-width: 400px; /* Maximale Breite des Bildcontainers */
+}
 
 
 
@@ -144,6 +153,9 @@
   <div><button class="button" onclick="playAudio()">🔊</button></div>
 </div>
 
+<div class="picture-box" id="pictureBox">
+    <img id="wordImage" src="" alt="Bild zum Wort" style="max-width: 100%; height: auto;">
+</div>
 
 
 <script>
@@ -161,6 +173,7 @@ fetch('A1.json')
   function displayWord() {
   const wordContainer = document.getElementById('vocabulary');
   const idContainer = document.getElementById('currentId'); // Beziehen Sie das neue ID-Element
+  const imageContainer = document.getElementById('wordImage'); // Bild-Element
   const word = words[currentIndex];
 
   idContainer.textContent = `ID: ${word.ID}`; // Setzen Sie den Text des ID-Elements
@@ -170,6 +183,7 @@ fetch('A1.json')
     <div class="word">${word.Deutsch}</div>
     <div class="pronunciation">${word['Deutsche Aussprache für Englischsprachige']}</div>
   `;
+  imageContainer.src = `/picture/picture_${word.ID}.jpg`; // Pfad des Bildes
 }
 
 function playAudio() {
