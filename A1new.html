@@ -140,7 +140,10 @@
 <div class="button-container">
   <div><button class="button" onclick="previousWord()">Zurück</button></div>
   <div><button class="button" onclick="nextWord()">Weiter</button></div>
+  <!-- Neuer Lautsprecher-Button -->
+  <div><button class="button" onclick="playAudio()">🔊</button></div>
 </div>
+
 
 
 <script>
@@ -169,6 +172,15 @@ fetch('A1.json')
   `;
 }
 
+function playAudio() {
+  const word = words[currentIndex];
+  const audioId = word.ID; // Die aktuelle ID aus den Wörtern
+  const audioPath = `audio/audio_${audioId}.mp3`; // Pfad zur Audiodatei, relativ zum Hauptverzeichnis
+
+  // Erstelle ein neues Audio-Element und spiele die Datei ab
+  const audio = new Audio(audioPath);
+  audio.play();
+}
 
 
 function nextWord() {
@@ -220,12 +232,17 @@ function searchWords() {
 
 
 function displayWordById(id) {
-  var index = words.findIndex(word => word.ID === id);
+  var index = words.findIndex(word => word.ID.toString() === id.toString());
   if (index !== -1) {
     currentIndex = index;
     displayWord();
     document.getElementById("searchResults").style.display = "none";
   }
+  
+
+
+
+
 }
 
 </script>
