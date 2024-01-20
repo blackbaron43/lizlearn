@@ -1,5 +1,4 @@
-{
-  "Tabellenblatt1": [
+[
     {
       "ID": "1",
       "Englisch": "I have to work from tomorrow.",
@@ -694,4 +693,3 @@
       "Hiligaynon": "Indi mo kinahanglan himuon ang bisan ano. Nagahimo ini sing awtomatiko."
     }
   ]
-}
